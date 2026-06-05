@@ -3,12 +3,14 @@
 A sleek, interactive Command Line Interface (CLI) application for managing tasks. Built entirely in Python, this tool provides a continuous interactive shell (REPL) to add, update, track, and delete tasks without constantly restarting the application.
 Data is seamlessly and safely persisted to a local JSON file using an auto-save mechanism upon exit.
 
+Project URL : [https://roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker)
+
 ## ✨ Features
 
 * *Interactive Playground:* Powered by Python's cmd module, offering a continuous shell with a custom task-cli> prompt.
 * *Smart State Tracking:* Tasks automatically update their updated_at timestamps whenever their properties are modified.
 * *Status Management:* Easily transition tasks between todo, in-progress, and done.
-* *Robust Error Handling:* Built-in custom exceptions ensure graceful failures without crashing the application.
+* *Robust Error and Exception Handling:* Built-in custom exceptions ensure graceful failures without crashing the application.
 * *Auto-Saving:* Tasks are safely serialized and written to data.json when exiting the playground.
 
 ## 🏗️ Architecture
